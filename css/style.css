@@ -1,0 +1,220 @@
+/* Top banner */
+body{
+    margin: 0;
+    background-color: #d8efef;
+}
+
+#topbanner {
+    display:flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+#name-and-intro {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 20px;
+  z-index: -0;
+}
+
+#name-and-intro:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.04); 
+  border-radius: 5%;
+}
+
+
+#my-image {
+    margin-top: 20px;
+}
+
+
+#name {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 30px;
+
+}
+#designation {
+    font-size: 30px;
+}
+#company-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #4CAF50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#company-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navigation bar */
+.topnav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  gap: 15%; /* reduced gap for better spacing */
+}
+
+.nav-button {
+  position: relative;
+  z-index: 1;
+  color: rgb(231, 251, 217);
+  text-decoration: none;
+  padding: 6px 18px;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: transparent;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.nav-button:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: hsl(180, 41.8%, 89.2%);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.7s ease;
+  z-index: -1;
+  
+}
+
+.nav-button:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+#introduction {
+    border-radius: 20px;
+    border: 10px solid #333434;
+    padding: 20px;
+    align-self: center;
+    margin: 30px;
+
+}
+#introduction:hover
+{
+    transform: scale(1.01);
+}
+
+#skills {
+    border-radius: 20px;
+    border: 10px solid #333434;
+    padding: 20px;
+    align-self: center;
+    margin: 30px;
+
+}
+#skills:hover
+{
+    transform: scale(1.01);
+}
+
+#my-projects {
+    border-radius: 20px;
+    border: 10px solid #333434;
+    padding: 20px;
+    align-self: center;
+    margin: 30px;
+
+}
+#my-projects:hover
+{
+    transform: scale(1.01);
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+p {
+    font-family:cursive;
+}
+
+
+.all-in-about {
+
+    background-color: #d8efef;
+    border-radius: 20px;
+    border: 10px solid #333434;
+    padding: 10px;
+    align-self: center;
+    margin: 30px;
+}
+.all-in-about:hover {
+    transform: scale(1.01);
+}
+
+
+.project-card {
+    font-size: 20px; 
+    font-family: cursive;
+}
+
+#my-four-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .project-card {
+    border: 10px solid #333434;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+
+  .project-card ul {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+
+  .project-card a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+
+
+/*Footer*/
+#footer {
+    text-align: center;
+    margin-bottom: 0px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #f2fafa;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+

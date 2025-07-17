@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoorv Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Start : Top Banner Portion -->
+    <div id="topbanner" style="background-color: black; color: white; padding: 20px;" >
+        <div id="my-image"><img src="images/Apoorv_Photo.png" width="200" height="200"></div>
+        <div id="name-and-intro">
+            <p id="name">Apoorv Sharma</p>
+            <p id="designation">Associate Software Engineer</p>
+        </div>
+        <div id="company-image">
+            <img src="images/company-image.png">
+        </div>
+    </div>
+    <!-- End : Top Banner Portion -->
+    <!-- Start : Navigation Bar -->
+    <div class="topnav">
+    <a class="nav-button" href="index.html">Home</a>
+    <a class="nav-button" href="about.html">About</a>
+    <a class="nav-button" href="projects.html">Projects</a>
+    </div>
+    <!-- End : Navigation Bar -->
+
+    <!-- Start : Rest Whole section -->
+
+
+
+    <div id="my-four-projects" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; padding: 20px;">
+
+        <!-- Image Generator AI -->
+        <div class="project-card">
+            <h3>Image Generator AI | Stable Diffusion</h3>
+            <p>
+            Developed an AI-powered image generation system using Stable Diffusion, capable of producing high-quality images from text prompts and depth maps. 
+            Optimized model performance by analyzing generation latency and aspect ratios. Fine-tuned for guided generation with future enhancements for depth conditioning.
+            </p>
+            <ul>
+            <li>Stable Diffusion</li>
+            <li>Python</li>
+            <li>Deep Learning</li>
+            </ul>
+            <img src="images/stable-diffusion.png" alt="Image Generator Mockup" width="100%" height="auto">
+            <p><a href="https://github.com/CrunchyExplosion/StableDiffusion_imageGenerator">GitHub Link</a></p>
+        </div>
+
+        <!-- Notes Generator AI -->
+        <div class="project-card">
+            <h3>Notes Generator AI</h3>
+            <p>
+            Built a Python application using Google Gemini API to generate and interact with text-based notes. Integrated natural language processing features and 
+            created a user-friendly interface for dynamic note generation and retrieval.
+            </p>
+            <ul>
+            <li>Python</li>
+            <li>Google Gemini API</li>
+            <li>NLP</li>
+            </ul>
+            <img src="images/notes-generator.png" alt="Notes Generator Mockup" width="100%" height="auto">
+            <p><a href="https://github.com/CrunchyExplosion/Notes-Generator">GitHub Link</a></p>
+        </div>
+
+        <!-- DataKraft -->
+        <div class="project-card">
+            <h3>DataKraft | Website Version 2.0</h3>
+            <p>
+            Designed a secure data embedding system using OpenCV and Python to transmit digital data via PNGs. Deployed the backend using Flask on Azure App Services. 
+            Developed basic frontend using HTML, CSS, and Jinja with versioning from a C++ prototype.
+            </p>
+            <ul>
+            <li>Python & OpenCV</li>
+            <li>Azure App Services</li>
+            <li>Flask, HTML, CSS, Jinja</li>
+            <li>C++ (Version 1.0)</li>
+            </ul>
+            <img src="images/datakraft.png" alt="DataKraft Screenshot" width="100%" height="auto">
+            <p><a href="https://github.com/CrunchyExplosion/dataKraft">GitHub Link</a></p>
+            <p><a href="https://datakraft.azurewebsites.net/">Website Link</a></p>
+        </div>
+
+        <!-- Fashion Generator -->
+        <div class="project-card">
+            <h3>Fashion Generator</h3>
+            <p>
+            Created a GAN-based model with TensorFlow and Python using the Fashion MNIST dataset to generate fashion images. 
+            Applied deep learning architecture design, trained on image data, and documented the learning process extensively.
+            </p>
+            <ul>
+            <li>Python</li>
+            <li>TensorFlow</li>
+            <li>Fashion MNIST</li>
+            <li>GAN</li>
+            </ul>
+            <img src="images/fashion-mnist.png" alt="Fashion Generator Mockup" width="100%" height="auto">
+            <p><a href="https://github.com/CrunchyExplosion/GAN-fashion-mnist">GitHub Link</a></p>
+        </div>
+
+    </div>
+    <!-- End : Rest Whole Section -->
+
+    <!-- Start : Footer -->
+    <div id="footer">
+    <footer style="padding: 0%; text-align: center;">
+        <p>&copy; 2025 Protfolio Apoorv. All rights reserved.</p>
+        <p>Lets Connect: 
+            <a href="https://www.linkedin.com/in/apoorvsharma603" target="_blank" style="text-decoration: none; color: #007bff;">LinkedIn</a> | 
+            <a href="https://leetcode.com/u/Apoorv603/" target="_blank" style="text-decoration: none; color: #007bff;">Leetcode</a> | 
+            <a href="https://github.com/Master-Apoorv" target="_blank" style="text-decoration: none; color: #007bff;">Github</a>
+        </p>
+    </footer>
+     </div>
+    <!-- End : Footer -->
+    
+</body>
+</html>
