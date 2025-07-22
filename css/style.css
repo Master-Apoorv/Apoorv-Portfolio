@@ -174,37 +174,37 @@ p {
     padding: 20px;
   }
 
-  .project-card {
-    border: 10px solid #333434;
-    padding: 40px;
-    border-radius: 20px;
-    background-color: #f9f9f9;
-  }
+.project-card {
+  border: 10px solid #333434;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+}
 
-  .project-card:hover {
-    transform: scale(1.03);
-  }
+.project-card:hover {
+  transform: scale(1.03);
+}
 
-  .project-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-    margin-bottom: 12px;
-  }
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
 
-  .project-card ul {
-    padding-left: 20px;
-    margin-bottom: 12px;
-  }
+.project-card ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
 
-  .project-card a {
-    color: #007acc;
-    text-decoration: none;
-  }
+.project-card a {
+  color: #007acc;
+  text-decoration: none;
+}
 
-  .project-card a:hover {
-    text-decoration: underline;
-  }
+.project-card a:hover {
+  text-decoration: underline;
+}
 
 
 /*Footer*/
